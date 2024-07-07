@@ -1,5 +1,199 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-body{
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: "Merriweather", serif;
+}
+
+/* Banner Styles */
+
+.banner-container {
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 50px auto;
+    border-radius: 16px;
+    background-image: url("../images/Banner\ Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    /* background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%); */
+}
+
+.banner-text {
+    width: 100%;
+    /* height: 100%; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.happy-text {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.party-text {
+    width: 632px;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* 65% Section */
+.sixtyfive-section-wrapper {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    margin: 120px 0;
+}
+
+.sixtyfive-section {
+    width: 802.9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sixtyfive-section h1 {
+    width: 383px;
+    height: 107px;
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.sixtyfive-section p {
+    width: 397px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.sixtyfive-section h3 {
+    width: 410px;
+    height: 58px;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.sixtyfive-section img {
+    width: 802.9px;
+    height: 500px;
+}
+
+/* Section Banner */
+.banner-container2 {
+    width: 1320px;
+    height: 600px;
+    font-family: "Merriweather", serif;
+    margin: 0 auto;
+    background: url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    display: flex;
+    gap: 95px;
+    border-radius: 16px;
+
+}
+
+.section-banner-text {
+    width: 695px;
+    margin-top: 126px;
+    margin-left: 126px;
+    margin-left: 95px;
+    margin-bottom: 142px;
+}
+
+.section-banner-text h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: left;
+
+}
+
+.section-banner-text p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.section-banner-text h5 {
+    margin-left: 32px;
+}
+
+.section-banner-text h5 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section-banner-img {
+    margin-top: 68px;
+    margin-right: 108px;
+    width: 350px;
+    height: 465px;
+}
+
+/* Address Section */
+.address {
+    font-family: "Inter", sans-serif;
+    width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.address-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 214px 385px;
+}
+
+.address-content h3 {}
+
+.address-content h3 span {
+    color: #FF0000;
+}
+
+.address-content button {
+    margin-top: 48px;
+    background-color: #FF0000;
+    color: white;
+    padding: 16px 32px 16px 32px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
 }
